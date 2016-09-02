@@ -1,14 +1,14 @@
 /*global module */
 module.exports = function (map) {
 	'use strict';
-	var wallAt = function (x, y) {
+	var wallAt = function (point) {
 			return map.walls.find(function (wall) {
-				return wall.x === x && wall.y === y;
+				return wall.x === point.x && wall.y === point.y;
 			});
 		},
-		enemyAt = function (x, y) {
+		enemyAt = function (point) {
 			return map.enemies.find(function (tank) {
-				return tank.x === x && tank.y === y;
+				return tank.x === point.x && tank.y === point.y;
 			});
 		},
 		movements = {
