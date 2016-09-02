@@ -2,17 +2,14 @@
 
 This is a trivially simple implementation of a tank APIs for the [Serverless Code Camp](https://serverless.camp), which just stays in the same place and fires all the time.
 
-
-
 * Move horizontally and shoot at any available targets, than turn around
 * Move vertically and shoot at any available targets encountered, then turn around
 * Move around a rectangular area, and shoot any available targets encountered
 
 ## Prerequisites
 
-* [Set up access credentials for Node.js AWS SDK](http://docs.aws.amazon.com/AWSJavaScriptSDK/guide/node-configuring.html)
-* Create a profile with IAM, Lambda and API Gateway access
-* set the AWS_PROFILE environment variable, or change the package.json scripts to include `--profile <PROFILE>` option to `claudia` scripts
+* (optional) Create a new profile with IAM, Lambda and API Gateway access for your AWS account
+* Set up access credentials for Node.JS AWS SDK. Check out the [Lazy Quick Start](https://claudiajs.com/tutorials/installing.html#configuring-access-credentials) or [Configuring Node AWS SDK](http://docs.aws.amazon.com/AWSJavaScriptSDK/guide/node-configuring.html)
 
 ## Installing
 
