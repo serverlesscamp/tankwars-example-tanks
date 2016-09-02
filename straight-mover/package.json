@@ -3,7 +3,10 @@
   "version": "1.0.0",
   "private": "true",
   "description": "Simple tankwars that just moves straight and shoots at what it can see",
-  "scripts": {},
+  "scripts": {
+    "start": "claudia create --region us-east-1 --api-module api",
+    "deploy": "claudia update"
+  },
   "author": "",
   "license": "MIT",
   "dependencies": {
