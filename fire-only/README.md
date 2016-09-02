@@ -1,4 +1,4 @@
-# Straight-moving tank
+# Firing tank 
 
 This is a trivially simple implementation of a tank APIs for the [Serverless Code Camp](https://serverless.camp), which just stays in the same place and fires all the time.
 
