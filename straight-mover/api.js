@@ -40,3 +40,18 @@ api.post('/v/command', function (request) {
 	};
 });
 
+
+api.get('/r/info', function () {
+	'use strict';
+	return {
+		name: 'Rectangular Mover',
+		owner: 'Gojko'
+	};
+});
+api.post('/r/command', function (request) {
+	'use strict';
+	var map = request.body;
+	return {
+		command: tankAI(map, [])
+	};
+});
