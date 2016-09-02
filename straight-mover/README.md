@@ -6,6 +6,11 @@ This is a trivially simple implementation of three tank APIs for the [Serverless
 * Move vertically and shoot at any available targets encountered, then turn around
 * Move around a rectangular area, and shoot any available targets encountered
 
+## Prerequisites
+
+* [Set up access credentials for Node.js AWS SDK](http://docs.aws.amazon.com/AWSJavaScriptSDK/guide/node-configuring.html)
+* Create a profile with IAM, Lambda and API Gateway access
+* set the AWS_PROFILE environment variable, or change the package.json scripts to include `--profile <PROFILE>` option to `claudia` scripts
 
 ## Installing
 
