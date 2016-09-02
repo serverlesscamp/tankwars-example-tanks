@@ -1,5 +1,5 @@
 /*global module */
-module.exports = function (map) {
+module.exports = function (map, turnOn) {
 	'use strict';
 	var wallAt = function (point) {
 			return map.walls.find(function (wall) {
@@ -33,7 +33,7 @@ module.exports = function (map) {
 		tank = map.you,
 		movement = movements[tank.direction],
 		nextField = { x: tank.x + movement.x, y: tank.y + movement.y };
-	if (tank.direction === 'top' || tank.direction === 'bottom') {
+	if (turnOn.indexOf(tank.direction) >= 0) {
 		return 'turn-left';
 	}
 	if (outsideMap(nextField)) {

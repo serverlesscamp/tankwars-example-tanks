@@ -1,8 +1,8 @@
 {
-  "name": "horizontal-mover",
+  "name": "straight-mover",
   "version": "1.0.0",
   "private": "true",
-  "description": "Simple tankwars that just moves horizontally and shoots at what it can see",
+  "description": "Simple tankwars that just moves straight and shoots at what it can see",
   "scripts": {},
   "author": "",
   "license": "MIT",

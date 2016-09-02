@@ -10,17 +10,33 @@ api.get('/', function () {
 	'use strict';
 	return 'OK';
 });
-api.get('/info', function () {
+api.get('/h/info', function () {
 	'use strict';
 	return {
 		name: 'Horizontal Mover',
 		owner: 'Gojko'
 	};
 });
-api.post('/command', function (request) {
+api.post('/h/command', function (request) {
 	'use strict';
 	var map = request.body;
 	return {
-		command: tankAI(map)
+		command: tankAI(map, ['top', 'bottom'])
 	};
 });
+
+api.get('/v/info', function () {
+	'use strict';
+	return {
+		name: 'Vertical Mover',
+		owner: 'Gojko'
+	};
+});
+api.post('/v/command', function (request) {
+	'use strict';
+	var map = request.body;
+	return {
+		command: tankAI(map, ['right', 'left'])
+	};
+});
+
