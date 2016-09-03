@@ -2,10 +2,6 @@
 
 This is a trivially simple implementation of a tank APIs for the [Serverless Code Camp](https://serverless.camp), which just stays in the same place and fires all the time.
 
-* Move horizontally and shoot at any available targets, than turn around
-* Move vertically and shoot at any available targets encountered, then turn around
-* Move around a rectangular area, and shoot any available targets encountered
-
 ## Prerequisites
 
 * (optional) Create a new profile with IAM, Lambda and API Gateway access for your AWS account
