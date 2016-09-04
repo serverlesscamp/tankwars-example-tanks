@@ -1,0 +1,14 @@
+{
+  "name": "aiwar-tank",
+  "version": "1.0.0",
+  "main": "tank.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Milutin Marinovic, Ivan Aleksic, Filip Markovic, Djordje Cvijic",
+  "license": "ISC",
+  "description": "This is an implementation of a tank API for the Serverless Code Camp (https://serverless.camp).",
+  "dependencies": {
+    "claudia-api-builder": "^1.6.0"
+  }
+}
