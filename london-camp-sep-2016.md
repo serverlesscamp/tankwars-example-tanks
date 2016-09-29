@@ -7,7 +7,7 @@
 5. https://nyxipmzuz5.execute-api.us-east-1.amazonaws.com/latest
 6. https://
 7. https://
-8. https://
+8. https://ooabayj5rc.execute-api.eu-west-1.amazonaws.com/latest
 9. https://w8gkp8lquj.execute-api.eu-west-1.amazonaws.com/latest
 
 * boss fight: https://amcakp8gok.execute-api.us-east-1.amazonaws.com/latest
