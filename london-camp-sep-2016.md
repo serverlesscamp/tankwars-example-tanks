@@ -1,12 +1,12 @@
 # London Camp Tanks, September 2016
 
-1.
-2.
-3.
-4.
-5.
-6.
-7.
-8.
-9.
+1. https://
+2. https://
+3. https://
+4. https://
+5. https://
+6. https://
+7. https://
+8. https://
+9. https://
 
