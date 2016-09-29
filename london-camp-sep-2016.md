@@ -6,7 +6,7 @@
 4. https://
 5. https://nyxipmzuz5.execute-api.us-east-1.amazonaws.com/latest
 6. https://
-7. https://
+7. https://5oq5r293y8.execute-api.eu-west-1.amazonaws.com/latest
 8. https://ooabayj5rc.execute-api.eu-west-1.amazonaws.com/latest
 9. https://w8gkp8lquj.execute-api.eu-west-1.amazonaws.com/latest
 
