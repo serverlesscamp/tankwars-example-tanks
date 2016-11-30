@@ -1,5 +1,5 @@
-* 1: https://vietest1.azurewebsites.net/api/
+* 1:
 * 2:
 * 3:
 * 4:
-* 5:
+* 5: https://m9lfrhhgwe.execute-api.eu-west-1.amazonaws.com/DEV
