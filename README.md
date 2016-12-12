@@ -7,11 +7,10 @@ Sample API implementations for [Serverless Code Camp](https://serverless.camp) t
 
 ## Tank implementations from previous serverless camps
 
-## Belgrade, September 3 2016
-
-* [AI-War](ai-war) -- winner
-* [Super Awesome Tank](https://github.com/team-super-awsome/awsome-tank)
-* [Fury](fury)
+* [Barcelona, December 2016](barcelona-december-2016)
+* [Vienna, November 2016](vienna-2016-november.md)
+* [Belgrade, September 2016](belgrade-september-2016.md)
+* [London, September 2016](london-camp-sep-2016.md)
 
 ## API Docs
 
